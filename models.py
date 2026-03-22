@@ -10,7 +10,7 @@ Base = declarative_base()
 
 # crinado tabelas/classes do banco
 class Usuario(Base):
-    __tablename__ = "usuarios"
+    __tablename__ = "usuarios" a
     id = Column("id", Integer, Primary_key=True, autoincrement=True)
     # definindo o nome da colua, tipo de dado qie ela reserva, definindo como o valor unico para cada item da tabela
     # depois falei para ele incrementear um valor automaticamente a cada novo item da Lista
